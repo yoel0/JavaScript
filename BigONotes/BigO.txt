@@ -1,0 +1,32 @@
+Introduction to Big O and Time Complexity
+These concepts basically give you one way of describing
+how the time it takes to run your function 
+grows as the size of your input grows (to your function) 
+
+Example: - Find the total sum of all the nums in given_array
+given_array = [1, 4, 3, 2, ..., 10]
+
+def find_sum(given_array):
+  total = 0
+  for each i in given_array:
+    total += i
+  return total
+
+How much time does it take to run this function?
+This depends on alot of different variables, ie: how fast is your PC,
+What Programs are running, What language are you using etc
+A better question to ask in this case would be:
+How does the runtime of this function grow? (as the size of the input grows)
+- We can answer this with Big O Notation and Time Complexity
+
+Time Complexity = a way of showing how the runtime of a function increases as the size of the input increases.
+Example:
+[5, 7, 9, 7, 8] = 5 elements within the Array.
+[1, 9, 7, 1, 10, 7, 6, 7, 9, 4] = 10 elements within the Array.
+(Time Complexity: Linear Time)
+There are many Different Types of Time Complexity:
+Constant Time. 
+Quadratic Time.
+
+
+

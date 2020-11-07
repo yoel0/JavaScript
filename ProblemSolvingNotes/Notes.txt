@@ -1,0 +1,12 @@
+5 Steps of Problem Solving:
+
+1. Understanding the problem statement, Identify and Ask questions.
+By the end of this phase an indvidual should be able to ask you questions and you should be able to answer ie edge case etc
+
+2. Coming up with the solution THEORETICALLY no coding only pseudo code / diagrams.
+
+3. CODING! By this time you should. Feel confidant that you can code it up within 5 mins (15-20min realistically).
+
+4. Testing your Code. (Finding the right test case) small ones that demonstrate the input, run time and space complexities
+
+5. Solve / refactor for time / space complexity!
