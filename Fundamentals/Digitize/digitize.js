@@ -24,3 +24,9 @@ const spitDigits = n => [...`${Math.abs(n)}`].map(i =>
   6, 7, 8, 9
 ]
 */
+
+// Sam Miyakawa's Alternate Solutions
+// Alternate
+const splitDigits = (n) => Array.from(`${Math.abs(n)}`, Number)
+// More Readable Approach
+const splitDigits = (n) => Array.from(Math.abs(n).toString(), Number)
