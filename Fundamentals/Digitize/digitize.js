@@ -15,7 +15,7 @@ const spitDigits = n => [...`${Math.abs(n)}`].map(i =>
   console.log(spitDigits(123456789));
   console.log(spitDigits(-123456789));
 
-/* returns [
+/* Returns [
   1, 2, 3, 4, 5,
   6, 7, 8, 9
 ]
