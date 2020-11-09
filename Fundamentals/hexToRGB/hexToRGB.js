@@ -38,3 +38,35 @@ console.log(hexSorcery('#fff'));
 // rgba(39, 174, 96, 255)
 // rgb(39, 174, 0)
 // rgb(255, 255, 0)
+
+// Steven Miyakawa's approach.
+// *- K.I.S.S -*
+// You could simplify this a lot if you returned an array with 4 numbers in it. 
+// I think that's a much simpler and more flexible return value. 
+// So for example, you'd return something like `[39, 174, 96, 255]` instead of `"rgba(39, 174, 96, 255)"` 
+// cause then the consumer of the function could do whatever they want with it. 
+// They could construct the `rgba` string or the `rgb` string or do whatever they want with it. 
+// It's much more flexible. Some libraries like deck.gl for example take the rgba values in the format of `[r, g, b, a]`. 
+// As for bit shifting, I personally never use it in code I write. I think it's much more readable without it. 
+// I've attached a solution without using bit shifting.
+
+const normalize = (hex) => {
+  let normalizedHex = hex.replace(/^#/, "");
+
+  if (normalizedHex.length === 3) {
+    normalizedHex = Array.from(normalizedHex, (x) => `${x}${x}`).join("");
+  }
+
+  return normalizedHex.padEnd(8, "0");
+};
+
+const hexSorcery = (hex) => {
+  const normalizedHex = normalize(hex);
+
+  return [
+    parseInt(normalizedHex.substr(0, 2), 16),
+    parseInt(normalizedHex.substr(2, 2), 16),
+    parseInt(normalizedHex.substr(4, 2), 16),
+    parseInt(normalizedHex.substr(6, 2), 16),
+  ];
+};
