@@ -8,7 +8,7 @@
 */
 
 const lullabyOfDays = (date, locale) =>
-  date.toLocaleDateString(locale, { weekday: 'long'});
+  date.toLocaleDateString(locale, { weekday: 'long' });
 
 console.log(lullabyOfDays(new Date())); // default locale
 console.log(lullabyOfDays(new Date('11/18/2020'), 'de-DE')); // Deutsche
