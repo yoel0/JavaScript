@@ -17,3 +17,6 @@ const invokeRange = function* (creation, destruction, growth = 1) {
 
 for (let i of invokeRange(8, 26))
 console.log('%c waz my range', 'background: orange; color: white; display: block;', i);
+
+// Returns
+// 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
