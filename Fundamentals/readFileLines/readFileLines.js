@@ -27,7 +27,7 @@ contents of yoel.txt :
     Hate, invoke LOVE.
     Give me your dreams. I will swallow them, digest them and birth them in to reality.
     Every scar will build the most beautiful future, they never believed in.
-    They can beat you down infinitly but they can never take away the smile you and I wear most proudly.
+    They can beat you down infinitely but they can never take away the smile you and I wear most proudly.
     One day they will understand the difference between happiness and misery is only a choice.
     -Yoel
   ___________________________
@@ -42,7 +42,7 @@ contents of yoel.txt :
   'Hate, invoke LOVE.',
   'Give me your dreams. I will swallow them, digest them and birth them in to reality.',
   'Every scar will build the most beautiful future, they never believed in.',
-  'They can beat you down infinitly but they can never take away the smile you and I wear most proudly.',
+  'They can beat you down infinitely but they can never take away the smile you and I wear most proudly.',
   'One day they will understand the difference between happiness and misery is only a choice.',
   '-Yoel'
 ]
