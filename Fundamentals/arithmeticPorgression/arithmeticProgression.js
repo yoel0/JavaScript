@@ -5,6 +5,7 @@
  * 1. Use Array.from() to create an array of the desired length, lim/n, and
  * a map function to fill it with the desired values in the given range.
  */
+
 const arithmeticGarden = (seed, flower) =>
 	Array.from({ length: Math.ceil(flower / seed) }, (_, i) => (i + 1) * seed);
 
