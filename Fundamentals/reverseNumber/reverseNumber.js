@@ -17,3 +17,8 @@ const flipThisPancake = butter =>
 console.log(flipThisPancake(321));
 console.log(flipThisPancake(-500));
 console.log(flipThisPancake(77.7));
+
+// Returns
+// 123
+// -5
+// 7.77
