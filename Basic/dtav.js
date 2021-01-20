@@ -27,3 +27,30 @@ With the exception of null and undefined, all primitves values have object equiv
 which wrap around the primitive values, e.g. a String object wraps around a string prmitive.
 All primitives are immutable.
 */
+
+/* Variables
+var: 
+Stored in Global Scope.
+Function Scope.
+NOT Block Scope.
+Can be Reassigned.
+Can be Redeclared.
+Can be Hoisted.
+
+let:
+NOT Stored in Global Scope.
+Function Scope.
+Block Scope.
+Can be Reassigned.
+Can NOT be Redeclared.
+Can NOT be Hoised.
+
+const:
+NOT Stored in Global Scope.
+Function Scope.
+Block Scope.
+Can NOT be Reassigned. 
+Can NOT be Redeclared.
+Can NOT be Hoised.
+
+*/
