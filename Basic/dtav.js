@@ -43,7 +43,7 @@ Function Scope.
 Block Scope.
 Can be Reassigned.
 Can NOT be Redeclared.
-Can NOT be Hoised.
+Can NOT be Hoisted.
 
 const:
 NOT Stored in Global Scope.
@@ -51,6 +51,6 @@ Function Scope.
 Block Scope.
 Can NOT be Reassigned. 
 Can NOT be Redeclared.
-Can NOT be Hoised.
+Can NOT be Hoisted.
 
 */
