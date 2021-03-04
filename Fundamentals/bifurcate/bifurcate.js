@@ -15,3 +15,6 @@ const bifurcate = (a, filter) =>
   ]);
 
 console.log(bifurcate(['one', 'two', 'four', 'three'], [true, true, false, true]));
+
+// Returns
+// [ [ 'one', 'two', 'three' ], [ 'four' ] ]
