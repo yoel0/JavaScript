@@ -25,7 +25,7 @@ chainAsync([
     console.log('50% Hack midpoint reached..');
     setTimeout(next, 3000);
   },
-  next => {
+  next => { // should be anonymous as last () =>
     console.log('100% oh dang.. what do we have here toto?');
   }
 ]);
