@@ -1,4 +1,4 @@
-/* addCEqual, Javascript, Array
+/* allEqual, Javascript, Array
  * Checks if all elements in an array are equal.
  *
  * 1. Use Array.prototype.every() to check if all the elements of
