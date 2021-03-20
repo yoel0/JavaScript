@@ -2,7 +2,7 @@
 * Returns the head of an array.
 *
 * 1. Check if arr is truthy and has a length property.
-* 2. Use arr[0] if possible to return the first element, 
+* 2. Use arr[0] if possible to return the first element,
 * otherwise return undefined.
 */
 
