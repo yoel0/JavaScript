@@ -1,8 +1,8 @@
 /* complement, Javascript, Function, Logic
-* Returns a function that is the logical complement 
+* Returns a function that is the logical complement
 * of the given function, fn.
 *
-* 1. Use the logical not (!) operator on the result 
+* 1. Use the logical not (!) operator on the result
 * of calling fn with any supplied args.
 */
 

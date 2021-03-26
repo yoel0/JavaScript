@@ -1,7 +1,7 @@
 /* sumN, Javascript, Math
 * Sums all the numbers between 1 and n.
 *
-* 1. Use the formula (n * (n + 1)) / 2 
+* 1. Use the formula (n * (n + 1)) / 2
 * to get the sum of all the numbers between 1 and n.
 */
 

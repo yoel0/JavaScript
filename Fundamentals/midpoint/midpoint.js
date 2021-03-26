@@ -2,7 +2,7 @@
 * Calculates the midpoint between two pairs of (x,y) points.
 *
 * 1. Destructure the array to get x1, y1, x2 and y2.
-* 2. Calculate the midpoint for each dimension by dividing 
+* 2. Calculate the midpoint for each dimension by dividing
 * the sum of the two endpoints by 2.
 */
 
