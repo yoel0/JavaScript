@@ -13,7 +13,7 @@ const slugify = string =>
     .trim()
     .replace(/[^\w\s-]/g, '')
     .replace(/[\s_-]+/g, '-')
-    .replace(/^-+ | -+$/g, '');
+    .replace(/^-+|-+$/g, '');
 
 console.log(slugify('father we will lead them home...'));
 
